@@ -1,0 +1,18 @@
+.nav-konteiner {
+    display: flex;
+    
+}
+
+/* NAV BAR */
+header {
+    height: 64px;
+    background-color: gray;
+    width: 100%;
+    align-items: center;
+    
+}
+
+header img {
+    margin-left: 24px;
+    
+}
