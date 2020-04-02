@@ -1,6 +1,5 @@
 .nav-konteiner {
     display: flex;
-    
 }
 
 /* NAV BAR */
@@ -12,7 +11,30 @@ header {
     
 }
 
+.nav-vasak {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-parem {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 24px;
+}
+
+.nav-parem span{
+    padding: 10px 16px;
+}
+
 header img {
     margin-left: 24px;
-    
+    height: 50px;
+    width: auto;
+}
+
+.title {
+    font-size: 32px;
 }
