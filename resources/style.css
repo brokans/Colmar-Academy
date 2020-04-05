@@ -181,9 +181,8 @@ header img {
 .konteiner3 {
     background-color: lightgray;
     width: 100%;
-    height: 1242px;
+    height: 1242gpx;
     text-align: center;
-    border: 1px solid grey;
 }
 
 .konteiner3 h1 {
@@ -191,18 +190,16 @@ header img {
 }
 
 .õppeained {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     margin-right: 72px;
     margin-left: 72px;
-    border: 1px solid grey;
     height: 1065px;
     width: auto;
 }
 
 .aine {
     display: flex;
-    border: 1px solid grey;
     text-align: left;
     flex-direction: column;
     margin-right: 32px;
@@ -210,6 +207,10 @@ header img {
     width: 349px;
     height: 515px;
     background-color: white;
+}
+
+.aine img {
+    height: auto;
 }
 
 .aine h3 {
@@ -225,7 +226,6 @@ header img {
 
 .aine-äärmine {
     display: flex;
-    border: 1px solid grey;
     text-align: left;
     flex-direction: column;
     margin-bottom: 32px;
