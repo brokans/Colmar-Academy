@@ -145,7 +145,7 @@ header img {
 .tab {
     display: flex;
     padding-top: 16px;
-    height: 170px;
+    height: 215px;
     width: 100%;  
     margin-bottom: 1px; 
     border: 1px solid lightgrey;
@@ -179,7 +179,7 @@ header img {
 .tab-gray{
     display: flex;
     padding-top: 16px;
-    height: 170px;
+    height: 215px;
     width: 100%;  
     margin-bottom: 1px; 
     border: 1px solid lightgrey;
@@ -298,19 +298,15 @@ header img {
     flex-direction: column;
     text-align: left;
     color: rgb(53, 52, 52);
-    border: 1px solid black;
-}
 }
 
 .konteiner4-vasak-text-h2 {
     font-size: 28px;
     padding-bottom: 8px;
-    border: 1px solid black;
 }
 
 .konteiner4-vasak-text-p1 {
     color: grey;
-    margin-bottom: 32px;
 }
 
 
@@ -326,7 +322,7 @@ header img {
 .tab4 {
     display: flex;
     padding-top: 16px;
-    height: 170px;
+    height: 215px;
     width: 100%;  
     margin-bottom: 1px; 
     
@@ -354,14 +350,14 @@ header img {
 
 .tab4-text p {
     color: rgb(53, 52, 52);
-    padding-bottom: 8px;
+    padding-bottom: 32px;
     color: gray;
 }
 
 .tab4-gray{
     display: flex;
     padding-top: 16px;
-    height: 170px;
+    height: 215px;
     width: 100%;  
     margin-bottom: 1px; 
     background-color: lightgray;
@@ -371,4 +367,24 @@ header img {
     width: 35%;
     height: auto;
     padding: 16px 16px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    display: flex;
+}
+
+.footer-p {
+    width: 50%;
+    color: gray;
+    padding: 16px 24px;
+}
+
+.footer-p2 {
+    width: 50%;
+    color: gray;
+    padding: 16px 24px;
+    text-align: right;
 }
