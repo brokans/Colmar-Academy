@@ -145,7 +145,7 @@ header img {
 .tab {
     display: flex;
     padding-top: 16px;
-    height: 215px;
+    height: 170px;
     width: 100%;  
     margin-bottom: 1px; 
     border: 1px solid lightgrey;
@@ -179,7 +179,7 @@ header img {
 .tab-gray{
     display: flex;
     padding-top: 16px;
-    height: 215px;
+    height: 170px;
     width: 100%;  
     margin-bottom: 1px; 
     border: 1px solid lightgrey;
@@ -275,6 +275,7 @@ header img {
 
 .konteiner4-sisu {
     display: flex;
+    margin-left: 24px;
 }
 
 .konteiner4-vasak {
@@ -284,33 +285,34 @@ header img {
 }
 
 .konteiner4-vasak video{
-    width: 97%;
+    width: 100%;
     height: auto;
-    margin: 32px 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 24px;
 }
 
 
 .konteiner4-vasak-text {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    padding-left: 24px;
+    text-align: left;
     color: rgb(53, 52, 52);
-    padding-bottom: 24px;
+    border: 1px solid black;
+}
 }
 
 .konteiner4-vasak-text-h2 {
     font-size: 28px;
-    padding-bottom: 24px;
+    padding-bottom: 8px;
+    border: 1px solid black;
 }
 
 .konteiner4-vasak-text-p1 {
     color: grey;
+    margin-bottom: 32px;
 }
 
-.konteiner4-vasak-text-p2 {
-    padding-bottom: 32px;
-}
 
 .konteiner4-parem {
     display: flex;
@@ -324,7 +326,7 @@ header img {
 .tab4 {
     display: flex;
     padding-top: 16px;
-    height: 215px;
+    height: 170px;
     width: 100%;  
     margin-bottom: 1px; 
     
@@ -340,7 +342,8 @@ header img {
 .tab4-text {
     width: 100%;
     align-items: center;
-    color: gray
+    color: gray;
+    text-align: left;
 }
 
 .tab4-text h3 {
@@ -352,12 +355,13 @@ header img {
 .tab4-text p {
     color: rgb(53, 52, 52);
     padding-bottom: 8px;
+    color: gray;
 }
 
 .tab4-gray{
     display: flex;
     padding-top: 16px;
-    height: 215px;
+    height: 170px;
     width: 100%;  
     margin-bottom: 1px; 
     background-color: lightgray;
