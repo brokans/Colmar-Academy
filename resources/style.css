@@ -211,8 +211,8 @@ header img {
     flex-wrap: wrap;
     margin-right: 72px;
     margin-left: 72px;
-    height: 1065px;
-    width: auto;
+    height: auto;
+    width: 100;
     padding-bottom: 32px;
 }
 
@@ -222,8 +222,8 @@ header img {
     flex-direction: column;
     margin-right: 32px;
     margin-bottom: 32px;
-    width: 349px;
-    height: 515px;
+    width: 340px;
+    height: auto;
     background-color: white;
 }
 
@@ -247,9 +247,8 @@ header img {
     text-align: left;
     flex-direction: column;
     margin-bottom: 32px;
-    margin-right: 32px;
-    width: 350px;
-    height: 515px;
+    width: 340px;
+    height: auto;
     background-color: white;
 }
 
@@ -383,12 +382,16 @@ footer {
 .footer-p {
     width: 50%;
     color: gray;
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;
 }
 
 .footer-p2 {
     width: 50%;
     color: gray;
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;
     text-align: right;
 }
+
+/* MOBILE */
+
+
