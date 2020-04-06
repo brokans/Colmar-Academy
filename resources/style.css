@@ -247,6 +247,7 @@ header img {
     text-align: left;
     flex-direction: column;
     margin-bottom: 32px;
+    margin-right: 32px;
     width: 350px;
     height: 515px;
     background-color: white;
